@@ -1,0 +1,29 @@
+# Python Virtual Environment
+venv/
+**/venv/
+
+# Environment variables
+.env*
+
+# IDE/Editor directories
+.vscode/
+.idea/
+
+# OS generated files
+*.DS_Store
+Thumbs.db
+
+# Python cache/compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ChromaDB persistent data
+chroma_db/
+**/chroma_db/
+
+# Optional: Consider ignoring large documents if they aren't essential in the repo
+# You might manage these separately (e.g., upload directly to IDX/GCS)
+ documents/*.pdf
+# documents/*.txt
