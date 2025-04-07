@@ -19,11 +19,22 @@ __pycache__/
 *.pyo
 *.pyd
 
-# ChromaDB persistent data
+# ChromaDB persistent data (ignore the root and specific classroom dbs)
 chroma_db/
+chroma_dbs/
 **/chroma_db/
+**/chroma_dbs/
 
 # Optional: Consider ignoring large documents if they aren't essential in the repo
 # You might manage these separately (e.g., upload directly to IDX/GCS)
- documents/*.pdf
+# documents/*.pdf
 # documents/*.txt
+
+# IDX specific files (if any appear)
+.idx/
+
+# Build artifacts (if any appear)
+dist/
+build/
+*.egg-info/
+
